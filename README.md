@@ -4,10 +4,12 @@ Here is a jupyter notebook to analyse the data linked to the talk https://www.sl
 
 ### Contains:
   
-  * stationboard-analysis.ipynb: the notebook
-  * data/station-boards-dump-4-months.tsv: 4.5 months of stationboard infomration dump
-  * data/stops.txt: the list of stations with geographical coordinates
-  
+  * `stationboard-analysis.ipynb`: the notebook
+  * `data/stops.txt`: the list of stations with geographical coordinates
+
+Load data (too large for github)
+  * download [`station-boards-dump-4-months.tsv.gz`](https://extranet.octo.com/oft/viewfile.php?fileid=63dee48857eb22effaaef6230e1a45ec&dl=) with 4.5 months of logged data, and unzip it into `data/station-boards-dump-4-months.tsv`
+
 ### How to run
 
 Launch jupyter from the repository where you cloned this repository and open `stationboard-analysis.ipynb`.
